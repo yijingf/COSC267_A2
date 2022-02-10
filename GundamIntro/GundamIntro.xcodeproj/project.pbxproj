@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9930CA2D27B4E01500A4A04D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930CA2C27B4E01500A4A04D /* HomeView.swift */; };
+		993DE32827B2E2EE00B07DE7 /* GundamIntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DE32727B2E2EE00B07DE7 /* GundamIntroApp.swift */; };
+		993DE32C27B2E2F100B07DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993DE32B27B2E2F100B07DE7 /* Assets.xcassets */; };
+		993DE32F27B2E2F100B07DE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993DE32E27B2E2F100B07DE7 /* Preview Assets.xcassets */; };
+		993DE34427B3838900B07DE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DE34227B3838900B07DE7 /* ContentView.swift */; };
+		993DE34827B3842800B07DE7 /* gundamData.json in Resources */ = {isa = PBXBuildFile; fileRef = 993DE34727B3842800B07DE7 /* gundamData.json */; };
+		993DE34A27B3849700B07DE7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DE34927B3849700B07DE7 /* InfoView.swift */; };
+		993DE35427B384F600B07DE7 /* GundamIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DE35227B384F600B07DE7 /* GundamIntro.swift */; };
+		993DE35527B384F600B07DE7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DE35327B384F600B07DE7 /* ModelData.swift */; };
+		998C7B0A27B3E32C00C07440 /* GundamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998C7B0727B3E32C00C07440 /* GundamRow.swift */; };
+		998C7B0B27B3E32C00C07440 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998C7B0827B3E32C00C07440 /* ItemList.swift */; };
+		998C7B0C27B3E32C00C07440 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998C7B0927B3E32C00C07440 /* ItemDetail.swift */; };
+		998C7B1027B3E52D00C07440 /* ItemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998C7B0E27B3E52D00C07440 /* ItemImage.swift */; };
+		998C7B1127B3E52D00C07440 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998C7B0F27B3E52D00C07440 /* FavoriteButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9930CA2C27B4E01500A4A04D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		993DE32427B2E2EE00B07DE7 /* GundamIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GundamIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993DE32727B2E2EE00B07DE7 /* GundamIntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GundamIntroApp.swift; sourceTree = "<group>"; };
+		993DE32B27B2E2F100B07DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		993DE32E27B2E2F100B07DE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		993DE34227B3838900B07DE7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		993DE34727B3842800B07DE7 /* gundamData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gundamData.json; sourceTree = "<group>"; };
+		993DE34927B3849700B07DE7 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoView.swift; path = GundamIntro/InfoView.swift; sourceTree = SOURCE_ROOT; };
+		993DE35227B384F600B07DE7 /* GundamIntro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GundamIntro.swift; sourceTree = "<group>"; };
+		993DE35327B384F600B07DE7 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		998C7B0727B3E32C00C07440 /* GundamRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GundamRow.swift; sourceTree = "<group>"; };
+		998C7B0827B3E32C00C07440 /* ItemList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		998C7B0927B3E32C00C07440 /* ItemDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		998C7B0E27B3E52D00C07440 /* ItemImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemImage.swift; sourceTree = "<group>"; };
+		998C7B0F27B3E52D00C07440 /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		993DE32127B2E2EE00B07DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		993DE31B27B2E2EE00B07DE7 = {
+			isa = PBXGroup;
+			children = (
+				993DE32627B2E2EE00B07DE7 /* GundamIntro */,
+				993DE32527B2E2EE00B07DE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		993DE32527B2E2EE00B07DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993DE32427B2E2EE00B07DE7 /* GundamIntro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993DE32627B2E2EE00B07DE7 /* GundamIntro */ = {
+			isa = PBXGroup;
+			children = (
+				993DE34027B3838900B07DE7 /* Views */,
+				993DE34627B3842800B07DE7 /* Resources */,
+				993DE32727B2E2EE00B07DE7 /* GundamIntroApp.swift */,
+				993DE35127B384F600B07DE7 /* Model */,
+				993DE32B27B2E2F100B07DE7 /* Assets.xcassets */,
+				993DE32D27B2E2F100B07DE7 /* Preview Content */,
+			);
+			path = GundamIntro;
+			sourceTree = "<group>";
+		};
+		993DE32D27B2E2F100B07DE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				993DE32E27B2E2F100B07DE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		993DE34027B3838900B07DE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				993DE34927B3849700B07DE7 /* InfoView.swift */,
+				993DE34227B3838900B07DE7 /* ContentView.swift */,
+				9930CA2C27B4E01500A4A04D /* HomeView.swift */,
+				998C7B0D27B3E52D00C07440 /* Helpers */,
+				998C7B0627B3E32C00C07440 /* Items */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		993DE34627B3842800B07DE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				993DE34727B3842800B07DE7 /* gundamData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		993DE35127B384F600B07DE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				993DE35227B384F600B07DE7 /* GundamIntro.swift */,
+				993DE35327B384F600B07DE7 /* ModelData.swift */,
+			);
+			name = Model;
+			path = Resources/Model;
+			sourceTree = "<group>";
+		};
+		998C7B0627B3E32C00C07440 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				998C7B0727B3E32C00C07440 /* GundamRow.swift */,
+				998C7B0827B3E32C00C07440 /* ItemList.swift */,
+				998C7B0927B3E32C00C07440 /* ItemDetail.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		998C7B0D27B3E52D00C07440 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				998C7B0E27B3E52D00C07440 /* ItemImage.swift */,
+				998C7B0F27B3E52D00C07440 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		993DE32327B2E2EE00B07DE7 /* GundamIntro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993DE33227B2E2F100B07DE7 /* Build configuration list for PBXNativeTarget "GundamIntro" */;
+			buildPhases = (
+				993DE32027B2E2EE00B07DE7 /* Sources */,
+				993DE32127B2E2EE00B07DE7 /* Frameworks */,
+				993DE32227B2E2EE00B07DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GundamIntro;
+			productName = GundamIntro;
+			productReference = 993DE32427B2E2EE00B07DE7 /* GundamIntro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993DE31C27B2E2EE00B07DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					993DE32327B2E2EE00B07DE7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 993DE31F27B2E2EE00B07DE7 /* Build configuration list for PBXProject "GundamIntro" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 993DE31B27B2E2EE00B07DE7;
+			productRefGroup = 993DE32527B2E2EE00B07DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993DE32327B2E2EE00B07DE7 /* GundamIntro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		993DE32227B2E2EE00B07DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993DE34827B3842800B07DE7 /* gundamData.json in Resources */,
+				993DE32F27B2E2F100B07DE7 /* Preview Assets.xcassets in Resources */,
+				993DE32C27B2E2F100B07DE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		993DE32027B2E2EE00B07DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993DE34427B3838900B07DE7 /* ContentView.swift in Sources */,
+				993DE35427B384F600B07DE7 /* GundamIntro.swift in Sources */,
+				993DE32827B2E2EE00B07DE7 /* GundamIntroApp.swift in Sources */,
+				998C7B0B27B3E32C00C07440 /* ItemList.swift in Sources */,
+				998C7B0C27B3E32C00C07440 /* ItemDetail.swift in Sources */,
+				9930CA2D27B4E01500A4A04D /* HomeView.swift in Sources */,
+				998C7B1027B3E52D00C07440 /* ItemImage.swift in Sources */,
+				993DE34A27B3849700B07DE7 /* InfoView.swift in Sources */,
+				998C7B1127B3E52D00C07440 /* FavoriteButton.swift in Sources */,
+				998C7B0A27B3E32C00C07440 /* GundamRow.swift in Sources */,
+				993DE35527B384F600B07DE7 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		993DE33027B2E2F100B07DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		993DE33127B2E2F100B07DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		993DE33327B2E2F100B07DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GundamIntro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = COSC267.GundamIntro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		993DE33427B2E2F100B07DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GundamIntro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = COSC267.GundamIntro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		993DE31F27B2E2EE00B07DE7 /* Build configuration list for PBXProject "GundamIntro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993DE33027B2E2F100B07DE7 /* Debug */,
+				993DE33127B2E2F100B07DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993DE33227B2E2F100B07DE7 /* Build configuration list for PBXNativeTarget "GundamIntro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993DE33327B2E2F100B07DE7 /* Debug */,
+				993DE33427B2E2F100B07DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 993DE31C27B2E2EE00B07DE7 /* Project object */;
+}
